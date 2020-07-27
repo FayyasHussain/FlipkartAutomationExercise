@@ -1,0 +1,12 @@
+{
+  "ApplicationUrl": "https://www.flipkart.com/",
+  "Browser": "chrome",
+  "RemoteDriver": {
+    "SeleniumURL": "http://hub.browserstack.com/wd/hub/",
+    "OS": "windows",
+    "Browser": "chrome",
+    "DeviceName": "",
+    "UserName": "",
+    "Password": ""
+  }
+}

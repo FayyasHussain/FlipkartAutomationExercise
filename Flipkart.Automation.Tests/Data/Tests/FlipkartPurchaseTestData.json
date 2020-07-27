@@ -1,0 +1,9 @@
+{
+  "ValidUser": {
+    "ValidUsername": "TestUser1",
+    "ValidPassword": "TestPassword1"
+  },
+  "ProductName": "Camera",
+  "CardNumber": "6011 1111 1111 1117",
+  "CardCVV": "100"
+}

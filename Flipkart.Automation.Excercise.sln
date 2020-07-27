@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flipkart.Automation.Core", "Flipkart.Automation.Core\Flipkart.Automation.Core.csproj", "{5958110D-95A3-4C63-8F02-F4D16D306F12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A809F0D2-D7E0-4B9C-BD68-19168C493802}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A02E26CC-AE6D-4037-8CF7-BA226BACCE34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{E1CD88FE-4CCF-4336-8CD6-4DD21F5D6DF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{31C6EB7F-D977-401E-8EDE-5986E0D85173}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrowserDrivers", "BrowserDrivers", "{FE10F04F-8A79-47A1-A533-1F08B4A39B85}"
+	ProjectSection(SolutionItems) = preProject
+		Shared\BrowserDrivers\chromedriver.exe = Shared\BrowserDrivers\chromedriver.exe
+		Shared\BrowserDrivers\geckodriver.exe = Shared\BrowserDrivers\geckodriver.exe
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flipkart.Automation.Tests", "Flipkart.Automation.Tests\Flipkart.Automation.Tests.csproj", "{0A6BFB17-82DB-4DAF-8E9F-0ECBB1854D97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5958110D-95A3-4C63-8F02-F4D16D306F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5958110D-95A3-4C63-8F02-F4D16D306F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5958110D-95A3-4C63-8F02-F4D16D306F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5958110D-95A3-4C63-8F02-F4D16D306F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A6BFB17-82DB-4DAF-8E9F-0ECBB1854D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6BFB17-82DB-4DAF-8E9F-0ECBB1854D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6BFB17-82DB-4DAF-8E9F-0ECBB1854D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6BFB17-82DB-4DAF-8E9F-0ECBB1854D97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5958110D-95A3-4C63-8F02-F4D16D306F12} = {A809F0D2-D7E0-4B9C-BD68-19168C493802}
+		{31C6EB7F-D977-401E-8EDE-5986E0D85173} = {E1CD88FE-4CCF-4336-8CD6-4DD21F5D6DF0}
+		{FE10F04F-8A79-47A1-A533-1F08B4A39B85} = {31C6EB7F-D977-401E-8EDE-5986E0D85173}
+		{0A6BFB17-82DB-4DAF-8E9F-0ECBB1854D97} = {A02E26CC-AE6D-4037-8CF7-BA226BACCE34}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {084090F6-CF6E-4312-B28D-7E4D4A7563A8}
+	EndGlobalSection
+EndGlobal
